@@ -18,7 +18,7 @@ As part of our Lab Week at [Makers Academy](http://www.makersacademy.com/) we'll
 
 ### Stack:
 
-- Sinatra/padrino
+- Sinatra
 - Datamapper/postgres
 - Bootstrap
 - Heroku
