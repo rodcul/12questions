@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/rodcul/12questions.svg)](https://travis-ci.org/rodcul/12questions)
 
+[![Stories in Ready](https://badge.waffle.io/rodcul/12questions.png?label=ready&title=Ready)](https://waffle.io/rodcul/12questions)
+
 # Gallup 12 Questions App
 
 As part of our Lab Week at [Makers Academy](http://www.makersacademy.com/) we'll be attempting to build a web app that will allow team leaders to understand important metrics surrounding their team by sending out monthly e-mails and then aggregating (to anonymise) and plotting the results for these 12 questions over time.
