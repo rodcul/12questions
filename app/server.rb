@@ -10,5 +10,5 @@ set :protection, :except => :path_traversal
 set :protect_from_csrf, true
 
 get '/' do
-  'hey'
+  erb :index
 end
