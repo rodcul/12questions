@@ -59,6 +59,3 @@ The following twelve questions will allows us to gain a pulse of employee engage
 Face it. We’ve all worked in jobs we hate, and based on those experiences, how many of the factors above lead to that terrible experience?
 
 This valuable tool can be used to avoid those terrible experiences. Use the questions as an employee engagement survey.
-
-
-https://waffle.io/rodcul/12questions
