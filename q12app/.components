@@ -1,9 +1,0 @@
----
-:orm: datamapper
-:test: rspec
-:mock: none
-:script: none
-:renderer: erb
-:stylesheet: none
-:namespace: Q12app
-:migration_format: number
