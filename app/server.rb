@@ -3,7 +3,10 @@ require 'data_mapper'
 require 'rack-flash'
 
 require_relative '../config/database'
+require_relative 'helpers/application'
+
 require_relative 'models/user'
+
 
 enable :sessions
 set :session_secret, 'f8287b802ffbd7dc8b706915182e3a46334e9529ca51cabcc52dd4713385a89c'
