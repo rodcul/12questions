@@ -3,7 +3,10 @@ require 'data_mapper'
 require 'rack-flash'
 
 require_relative '../config/database'
+require_relative 'helpers/application'
+
 require_relative 'models/user'
+
 
 use Rack::Flash, :accessorize => [:notice, :error]
 use Rack::MethodOverride
