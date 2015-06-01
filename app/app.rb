@@ -61,5 +61,8 @@ module Q12app
     #     render 'errors/500'
     #   end
     #
+    get '/' do
+      erb :index
+    end
   end
 end
