@@ -1,0 +1,32 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rocco/makers/week6/12questions/spec/features/user/user_signup_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/rocco/makers/week6/12questions/spec/features/helpers/sign_up.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1433178010
+  }
+}

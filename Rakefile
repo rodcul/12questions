@@ -1,6 +1,7 @@
 require 'data_mapper'
 require_relative 'app/server'
 
+
 task :before do
   # fail "RAKE_ENV has not been specified" unless ENV.key?('RACK_ENV')
 end
@@ -46,3 +47,4 @@ end
 task :test do
   system "rspec 2>/dev/null"
 end
+
