@@ -4,12 +4,12 @@ get '/users/new' do
 end
 
 post '/users' do
-  @user = User.new(:email => params[:email],
-              :password => params[:password],
-              :password_confirmation => params[:password_confirmation],
-              :first_name => params[:first_name],
-              :last_name => params[:last_name],
-              :team => params[:team])
+  @user = User.new(email: params[:email],
+                   password: params[:password],
+                   password_confirmation: params[:password_confirmation],
+                   first_name: params[:first_name],
+                   last_name: params[:last_name],
+                   team: params[:team])
   if @user.save
     session[:user_id] = @user.id
     redirect to('/')

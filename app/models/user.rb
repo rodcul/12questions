@@ -1,7 +1,6 @@
 require 'bcrypt'
 require 'dm-validations'
 
-
 class User
   include DataMapper::Resource
 
@@ -17,7 +16,6 @@ class User
   validates_uniqueness_of :email
 
   validates_confirmation_of :password, message: 'Sorry, your passwords do not match'
-
 
   def password=(password)
     @password = password
