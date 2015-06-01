@@ -26,6 +26,8 @@ gem 'dm-core'
 
 # Test requirements
 gem 'rspec', :group => 'test'
+gem 'capybara', :group => 'test'
+# gem 'capybara-padrino', :group => 'test'
 gem 'rack-test', :require => 'rack/test', :group => 'test'
 
 # Padrino Stable Gem
