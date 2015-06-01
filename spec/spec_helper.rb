@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
 Dir[File.expand_path(File.dirname(__FILE__) + "/../app/helpers/**/*.rb")].each(&method(:require))
 
 require "capybara/rspec"
- Capybara.app = @app
+ Capybara.app = Q12app::App
 
 RSpec.configure do |conf|
   conf.include Rack::Test::Methods
