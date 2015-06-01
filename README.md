@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rodcul/12questions.svg)](https://travis-ci.org/rodcul/12questions)
+[![Build Status](https://travis-ci.org/rodcul/12questions.svg)](https://travis-ci.org/rodcul/12questions)[![Coverage Status](https://coveralls.io/repos/rodcul/12questions/badge.svg)](https://coveralls.io/r/rodcul/12questions)
 
 # Gallup 12 Questions App
 
