@@ -19,3 +19,16 @@ def app(app = nil, &blk)
   @app ||= block_given? ? app.instance_eval(&blk) : app
   @app ||= Padrino.application
 end
+
+
+# Added by @rodcul based on:
+# https://github.com/makersacademy/chitter-challenge/blob/master/spec/spec_helper.rb
+
+require 'coveralls'
+require 'simplecov'
+
+SimpleCov.formatters = [
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
+Coveralls.wear!

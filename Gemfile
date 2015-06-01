@@ -25,8 +25,14 @@ gem 'dm-types'
 gem 'dm-core'
 
 # Test requirements
-gem 'rspec', :group => 'test'
-gem 'rack-test', :require => 'rack/test', :group => 'test'
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test', :require => 'rack/test'
+  gem 'rubocop-rspec'
+  gem 'rubocop'
+  gem 'coveralls', require: false
+end
 
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
