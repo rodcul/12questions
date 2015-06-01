@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rodcul/12questions.svg)](https://travis-ci.org/rodcul/12questions)
+[![Build Status](https://travis-ci.org/rodcul/12questions.svg)](https://travis-ci.org/rodcul/12questions)[![Coverage Status](https://coveralls.io/repos/rodcul/12questions/badge.svg)](https://coveralls.io/r/rodcul/12questions)
 
 [![Stories in Ready](https://badge.waffle.io/rodcul/12questions.png?label=ready&title=Ready)](https://waffle.io/rodcul/12questions)
 
