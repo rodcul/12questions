@@ -8,6 +8,7 @@ require_relative 'helpers/application'
 require_relative 'models/user'
 
 require_relative 'controllers/user'
+require_relative 'controllers/sessions'
 
 use Rack::Flash, accessorize: [:notice, :error]
 use Rack::MethodOverride
