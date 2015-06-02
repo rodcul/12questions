@@ -13,9 +13,10 @@ class User
   property :email, String
   property :team, String
   property :password_digest, Text
-  validates_uniqueness_of :email
 
-  validates_confirmation_of :password, message: 'Sorry, your passwords do not match'
+  validates :email, uniqueness: true
+  validates :password, confirmation: true,
+             message: 'Sorry, your passwords do not match'
 
   def password=(password)
     @password = password
@@ -26,8 +27,6 @@ class User
     user = first(email: email)
     if user && BCrypt::Password.new(user.password_digest) == password
       user
-    else
-      nil
     end
   end
 end
