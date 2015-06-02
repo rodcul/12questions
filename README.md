@@ -67,10 +67,14 @@ This valuable tool can be used to avoid those terrible experiences. Use the ques
 
 ==========
 
-# Cloning the app and getting it to work
+# Getting it to work
 
-* Checked out into the user branch and had to run the app with shotgun. Failed on account of not having any databases set up.
+To get this app to run on your local machine:
 
-*Created the test and developemnt databases and tried to load the app up again. Failed on account of not having any tables in the database.
+* Clone this repo: `git clone https://github.com/rodcul/12questions.git`
 
-* To fix this had to auto-upgrade on the DB: `run rake auto_upgrade ENV_RACK=test`. Refreshed the page, app working.
+* Create the Psql databases `q12app_test` and `q12app_development`.
+
+* Run `run rake auto_upgrade ENV_RACK=test` in your project directory to auto_upgrade your psql databases and include the relations you'll need.
+
+* Run the project with Shotgun.
