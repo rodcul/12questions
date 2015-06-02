@@ -1,5 +1,5 @@
-require_relative '../helpers/sign_up.rb'
-include SignUp
+require_relative '../helpers/session'
+include Session
 
 feature 'user signs out' do
   scenario 'successfully' do
