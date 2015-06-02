@@ -10,9 +10,9 @@ class User
   property :id, Serial
   property :first_name, String
   property :last_name, String
-  property :email, String,  required: true, unique: true
+  property :email, String, required: true, unique: true
   property :team, String
-  property :password_digest, Text,  required: true
+  property :password_digest, Text, required: true
 
   validates_confirmation_of :password
 
