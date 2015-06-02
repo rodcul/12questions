@@ -1,5 +1,5 @@
 require_relative '../helpers/sign_up.rb'
-include Sign_up
+include SignUp
 
 feature 'user signs up' do
   scenario 'as a new user of the website' do

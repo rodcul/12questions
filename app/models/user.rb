@@ -14,9 +14,8 @@ class User
   property :team, String
   property :password_digest, Text
 
-  validates :email, uniqueness: true
-  validates :password, confirmation: true,
-             message: 'Sorry, your passwords do not match'
+  validates_uniqueness_of :email
+  validates_confirmation_of :password
 
   def password=(password)
     @password = password
