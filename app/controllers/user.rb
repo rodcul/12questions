@@ -12,7 +12,7 @@ post '/users' do
                    team: params[:team])
   if @user.save
     session[:user_id] = @user.id
-    flash[:notice] = "User signup successful"
+    flash[:notice] = 'User signup successful'
     redirect to('/')
   else
     flash.now[:errors] = @user.errors.full_messages
