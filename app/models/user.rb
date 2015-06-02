@@ -10,16 +10,15 @@ class User
   property :id, Serial
   property :first_name, String
   property :last_name, String
-  property :email, String
+  property :email, String,  required: true, unique: true
   property :team, String
-  property :password_digest, Text
+  property :password_digest, Text,  required: true
 
-  validates_uniqueness_of :email
   validates_confirmation_of :password
 
   def password=(password)
     @password = password
-    self.password_digest = BCrypt::Password.create(password)
+    self.password_digest = BCrypt::Password.create(password) unless password.empty?
   end
 
   def self.authenticate(email, password)
