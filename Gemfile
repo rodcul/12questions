@@ -7,6 +7,7 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'rack-flash3'
 gem 'rake'
+gem 'bcrypt'
 
 group :test do
   gem 'rspec'
