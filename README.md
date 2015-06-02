@@ -63,3 +63,14 @@ The following twelve questions will allows us to gain a pulse of employee engage
 Face it. We’ve all worked in jobs we hate, and based on those experiences, how many of the factors above lead to that terrible experience?
 
 This valuable tool can be used to avoid those terrible experiences. Use the questions as an employee engagement survey.
+
+
+==========
+
+# Cloning the app and getting it to work
+
+* Checked out into the user branch and had to run the app with shotgun. Failed on account of not having any databases set up.
+
+*Created the test and developemnt databases and tried to load the app up again. Failed on account of not having any tables in the database.
+
+* To fix this had to auto-upgrade on the DB: `run rake auto_upgrade ENV_RACK=test`. Refreshed the page, app working.
