@@ -15,7 +15,6 @@ feature 'user signs in' do
     expect(page).not_to have_content('Welcome, test@test.com');
     click_link('Sign in')
     sign_in('test@test.com', '123')
-    save_and_open_page
     expect(page).to have_content('Welcome, test@test.com')
   end
 end
