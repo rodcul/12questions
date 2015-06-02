@@ -41,7 +41,6 @@
         <div class="alert alert-danger" role="alert">
           Sorry, there were the following problems with the form.
 
-
           <ul id = 'errors'>
             <% flash[:errors].each do |error| %>
               <li><%= error %></div>
@@ -50,6 +49,7 @@
         </ul>
       </div>
     <% end %>
+
     <div>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
