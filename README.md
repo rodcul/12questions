@@ -63,3 +63,18 @@ The following twelve questions will allows us to gain a pulse of employee engage
 Face it. We’ve all worked in jobs we hate, and based on those experiences, how many of the factors above lead to that terrible experience?
 
 This valuable tool can be used to avoid those terrible experiences. Use the questions as an employee engagement survey.
+
+
+==========
+
+# Getting it to work
+
+To get this app to run on your local machine:
+
+* Clone this repo: `git clone https://github.com/rodcul/12questions.git`
+
+* Create the Psql databases `q12app_test` and `q12app_development`.
+
+* Run `rake auto_upgrade ENV_RACK=test` & `rake auto_upgrade ENV_RACK=development` in your project directory to auto_upgrade your psql databases and include the relations you'll need (or auto_migrate if you want to overwrite database and lose all data).
+
+* Run the project with Shotgun.
