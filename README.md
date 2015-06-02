@@ -75,6 +75,6 @@ To get this app to run on your local machine:
 
 * Create the Psql databases `q12app_test` and `q12app_development`.
 
-* Run `run rake auto_upgrade ENV_RACK=test` in your project directory to auto_upgrade your psql databases and include the relations you'll need.
+* Run `rake auto_upgrade ENV_RACK=test` & `rake auto_upgrade ENV_RACK=development` in your project directory to auto_upgrade your psql databases and include the relations you'll need (or auto_migrate if you want to overwrite database and lose all data).
 
 * Run the project with Shotgun.
